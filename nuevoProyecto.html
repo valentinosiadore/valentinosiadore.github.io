@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Argentina Programa</title>
+    <link rel="stylesheet" href="C:\Users\Marifer\Desktop\Argentina Programa\css\estilos3.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul class="enlaces-menu">
+                <li><a href="#principal" class="seleccionado" onclick="seleccionar(this)">Home</a></li>
+                <li><a href="#infoPersonal" onclick="seleccionar(this)">Informacion personal</a></li>
+                <li><a href="#contacto" onclick="seleccionar(this)">Contacto</a></li>
+            </ul>
+            <button class="ham" type="button">
+                <span class="br-1"></span>
+                <span class="br-2"></span>
+                <span class="br-3"></span>
+            </button>
+        
+        </nav>
+    </header>
+
+    <section class="principal" id="principal">
+            <h1>Jar Griffin</h1> <br>
+            <h2>Junior Developer</h2>
+
+        <div class="in-flex">
+                
+        </div>
+        <div class="in-flex" id="infoPersonal">
+            <h2 id="titulo">Información Personal</h2>
+            <div class="informacion">
+                <h3>Mi nombre es Jar Griffin, soy natal de Argentina, Buenos Aires. <br>
+                    Recientemente termine un curso en Ticmas Academy, donde adquiri los conceptos necesarios para desarrollar front-end. <br>
+                    Cuento además, con formacion primaria y secundaria completas, y me encuentro estudiando la carrera de ingeniería en sistemas de información, en la facultad tecnológica de La Plata. <br>
+                    Mi experiencia como desarrollador no es muy extensa, y cuento con disponibilidad horaria durante el día; ya que desde las 18hs en adelante me encuentro cursando las materias de mi carrera.   
+                <h3>
+                        <div class="imagenUtn">
+
+                            <img class="utn" src="https://elmundodeberisso.com.ar/wp-content/uploads/2020/08/UTN.jpg" alt="Se muestra una foto de la UTN, pero no puede ser procesada por el navegador en uso" />
+                        </div>
+                        
+                        <p>Universidad Tecnológica Nacional (UTN-FRLP)</p>
+
+                    <a href="https://www.frlp.utn.edu.ar/">Sitio Web oficial</a>
+            </div>
+
+                <h2 id="titulo2">Contacto</h2>    
+            <div class="contacto" id="contacto">
+                
+                               
+                    
+                    <div class="formulario">
+                    
+                        <img class="imagen" src="https://randomuser.me/api/portraits/men/18.jpg" alt="Aqui se muestra la foto de perfil de Jar Griffin" height="200px" width="200px"/> <br>                
+                                        
+                        <form action="" method="post">
+                            <br> <label>Mensaje</label>
+                            <input type="text" name="mensaje" placeholder="Ingrese un mensaje"/> <br>
+                            <br> <label>Nombre</label>
+                            <input type="text" name="nombre" placeholder="Ingrese su nombre" required/> <br>
+                            <br> <label>Apellido</label>
+                            <input type="text" name="apellido" placeholder="Ingrese su apellido" required/> <br>
+                            <br> <label>E-mail</label>
+                            <input type="email" name="E-mail" placeholder="Ingrese su email" required/> <br>
+                            <br> <input type="submit" value="Enviar" /> <br>
+                        </form>
+                    </div>
+           
+            </div>
+        </div>
+    </section>
+    <script src="C:\Users\Marifer\Desktop\Argentina Programa\JS\script.js"></script>
+</body>
+</html>
